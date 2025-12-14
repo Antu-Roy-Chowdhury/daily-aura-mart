@@ -1,0 +1,287 @@
+[00:00:02.522] Server  LOG      ✓ Ready in 1603ms
+[00:00:09.240] Server  LOG      ○ Compiling / ...
+[00:00:22.972] Server  WARN     ⚠ Cross origin request detected from 192.168.56.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:25.459] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:26.213] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:26.213] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:26.213] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.56.1:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732167177}
+[00:01:40.499] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:40.963] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:40.963] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:40.963] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.56.1:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732241928}
+[00:02:37.774] Server  LOG      ✓ Compiled in 195ms
+[00:02:40.768] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:41.279] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:41.279] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:41.279] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.56.1:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732302237}
+[00:02:42.132] Browser ERROR   uncaughtError: RangeError: Invalid array length
+[00:03:08.577] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:08.884] Server  LOG      ✓ Compiled in 166ms
+[00:03:09.460] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:09.797] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:09.797] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:03:09.797] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.56.1:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732330761}
+[00:03:10.738] Browser ERROR   uncaughtError: RangeError: Invalid array length
+[00:03:20.208] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:20.533] Server  LOG      ✓ Compiled in 141ms
+[00:03:20.897] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:21.435] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:21.435] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:03:21.435] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.56.1:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732342401}
+[00:03:23.102] Server  LOG      ✓ Compiled in 137ms
+[00:03:29.343] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:29.797] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:29.797] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:03:29.797] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.56.1:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732350761}
+[00:03:40.011] Server  LOG      ✓ Compiled in 136ms
+[00:04:56.171] Server  LOG      ✓ Compiled in 151ms
+[00:04:57.226] Browser ERROR   ./components/testimonials.jsx:40:41
+Parsing ecmascript source code failed
+  38 |           name: r.Customer_Name,
+  39 |           review: r.Review_Text,
+> 40 |           rating: Number(r.Rating ?? 5),,
+     |                                         ^
+  41 |         }))
+  42 |
+  43 |       setReviews(parsedReviews)
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import trace:
+  Server Component:
+    ./components/testimonials.jsx
+    ./app/page.jsx
+[00:05:02.005] Server  ERROR    ⨯ ./components/testimonials.jsx:40:41
+Parsing ecmascript source code failed
+  38 |           name: r.Customer_Name,
+  39 |           review: r.Review_Text,
+> 40 |           rating: Number(r.Rating ?? 5),,
+     |                                         ^
+  41 |         }))
+  42 |
+  43 |       setReviews(parsedReviews)
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import trace:
+  Server Component:
+    ./components/testimonials.jsx
+    ./app/page.jsx
+
+
+[00:05:02.136] Browser ERROR   ./components/testimonials.jsx:40:41
+Parsing ecmascript source code failed
+  38 |           name: r.Customer_Name,
+  39 |           review: r.Review_Text,
+> 40 |           rating: Number(r.Rating ?? 5),,
+     |                                         ^
+  41 |         }))
+  42 |
+  43 |       setReviews(parsedReviews)
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import trace:
+  Server Component:
+    ./components/testimonials.jsx
+    ./app/page.jsx
+[00:05:03.167] Browser ERROR   ./components/testimonials.jsx:40:41
+Parsing ecmascript source code failed
+  38 |           name: r.Customer_Name,
+  39 |           review: r.Review_Text,
+> 40 |           rating: Number(r.Rating ?? 5),,
+     |                                         ^
+  41 |         }))
+  42 |
+  43 |       setReviews(parsedReviews)
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import trace:
+  Server Component:
+    ./components/testimonials.jsx
+    ./app/page.jsx
+[00:05:03.307] Browser ERROR   ./components/testimonials.jsx:40:41
+Parsing ecmascript source code failed
+  38 |           name: r.Customer_Name,
+  39 |           review: r.Review_Text,
+> 40 |           rating: Number(r.Rating ?? 5),,
+     |                                         ^
+  41 |         }))
+  42 |
+  43 |       setReviews(parsedReviews)
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import trace:
+  Server Component:
+    ./components/testimonials.jsx
+    ./app/page.jsx
+[00:05:04.205] Browser ERROR   ./components/testimonials.jsx:40:41
+Parsing ecmascript source code failed
+  38 |           name: r.Customer_Name,
+  39 |           review: r.Review_Text,
+> 40 |           rating: Number(r.Rating ?? 5),,
+     |                                         ^
+  41 |         }))
+  42 |
+  43 |       setReviews(parsedReviews)
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import trace:
+  Server Component:
+    ./components/testimonials.jsx
+    ./app/page.jsx
+[00:05:04.809] Browser ERROR   uncaughtError: Error: ./components/testimonials.jsx:40:41
+Parsing ecmascript source code failed
+  38 |           name: r.Customer_Name,
+  39 |           review: r.Review_Text,
+> 40 |           rating: Number(r.Rating ?? 5),,
+     |                                         ^
+  41 |         }))
+  42 |
+  43 |       setReviews(parsedReviews)
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import trace:
+  Server Component:
+    ./components/testimonials.jsx
+    ./app/page.jsx
+
+
+[00:05:05.106] Browser ERROR   ./components/testimonials.jsx:40:41
+Parsing ecmascript source code failed
+  38 |           name: r.Customer_Name,
+  39 |           review: r.Review_Text,
+> 40 |           rating: Number(r.Rating ?? 5),,
+     |                                         ^
+  41 |         }))
+  42 |
+  43 |       setReviews(parsedReviews)
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import trace:
+  Server Component:
+    ./components/testimonials.jsx
+    ./app/page.jsx
+[00:05:05.223] Browser ERROR   ./components/testimonials.jsx:40:41
+Parsing ecmascript source code failed
+  38 |           name: r.Customer_Name,
+  39 |           review: r.Review_Text,
+> 40 |           rating: Number(r.Rating ?? 5),,
+     |                                         ^
+  41 |         }))
+  42 |
+  43 |       setReviews(parsedReviews)
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import trace:
+  Server Component:
+    ./components/testimonials.jsx
+    ./app/page.jsx
+[00:05:06.909] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:07.262] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:07.262] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:07.262] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.56.1:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732448220}
+[00:05:08.219] Browser ERROR   uncaughtError: RangeError: Invalid array length
+[00:05:15.553] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:15.958] Server  LOG      ✓ Compiled in 159ms
+[00:05:16.330] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:16.752] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:16.752] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:16.752] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.56.1:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732457646}
+[00:05:18.889] Server  LOG      ✓ Compiled in 151ms
+[00:05:18.997] Browser ERROR   ./components/testimonials.jsx:40:41
+Parsing ecmascript source code failed
+  38 |           name: r.Customer_Name,
+  39 |           review: r.Review_Text,
+> 40 |           rating: Number(r.Rating ?? 5),,
+     |                                         ^
+  41 |         }))
+  42 |
+  43 |       setReviews(parsedReviews)
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import trace:
+  Server Component:
+    ./components/testimonials.jsx
+    ./app/page.jsx
+[00:05:24.579] Server  LOG      ✓ Compiled in 136ms
+[00:05:27.320] Server  LOG      ✓ Compiled in 145ms
+[00:07:33.537] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:34.018] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:34.018] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:34.018] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.56.1:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732594979}
+[00:08:06.592] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/track-order color: rgb(120, 120, 120) color: inherit {"dp":"/track-order","o":"http://192.168.56.1:3000/track-order","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732627553}
+[00:08:08.759] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/#reviews color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.56.1:3000/#reviews","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732629720}
+[00:08:16.730] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/order?id=DAM-001&name=Vitamin+C+Glow+Serum&price=1299%E0%A7%B3&image=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1611930022073-b7a4ba5fcccd&details=%22A+powerful+Vitamin+C+serum+enriched+with+hyaluronic+acid+to+boost+glow color: rgb(120, 120, 120) color: inherit {"dp":"/order","o":"http://192.168.56.1:3000/order?id=DAM-001&name=Vitamin+C+Glow+Serum&price=1299%E0%A7%B3&image=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1611930022073-b7a4ba5fcccd&details=%22A+powerful+Vitamin+C+serum+enriched+with+hyaluronic+acid+to+boost+glow","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732637691}
+[00:11:06.504] Server  LOG      ✓ Compiled in 136ms
+[00:11:18.078] Server  LOG      ✓ Compiled in 138ms
+[00:11:25.019] Server  LOG      ✓ Compiled in 161ms
+[00:11:25.219] Browser ERROR   ./components/order-tracking.jsx:168:17
+Parsing ecmascript source code failed
+  166 |             <p className="text-gray-700">
+  167 |               <span className="font-semibold">
+> 168 |             </p>
+      |                 ^
+> 169 |           </div>
+      | ^^^^^^^^^^^
+  170 |
+  171 |           {/* Progress Bar */}
+  172 |           <div className="relative">
+
+Expected '</', got 'jsx text (
+          )'
+
+Import trace:
+  Server Component:
+    ./components/order-tracking.jsx
+    ./app/track-order/page.jsx
+[00:11:29.219] Browser ERROR   ./components/order-tracking.jsx:168:17
+Parsing ecmascript source code failed
+  166 |             <p className="text-gray-700">
+  167 |               <span className="font-semibold">Ex
+> 168 |             </p>
+      |                 ^
+> 169 |           </div>
+      | ^^^^^^^^^^^
+  170 |
+  171 |           {/* Progress Bar */}
+  172 |           <div className="relative">
+
+Expected '</', got 'jsx text (
+          )'
+
+Import trace:
+  Server Component:
+    ./components/order-tracking.jsx
+    ./app/track-order/page.jsx
+[00:11:32.220] Browser ERROR   ./components/order-tracking.jsx:168:17
+Parsing ecmascript source code failed
+  166 |             <p className="text-gray-700">
+  167 |               <span className="font-semibold">Expected 
+> 168 |             </p>
+      |                 ^
+> 169 |           </div>
+      | ^^^^^^^^^^^
+  170 |
+  171 |           {/* Progress Bar */}
+  172 |           <div className="relative">
+
+Expected '</', got 'jsx text (
+          )'
+
+Import trace:
+  Server Component:
+    ./components/order-tracking.jsx
+    ./app/track-order/page.jsx
+[00:11:33.621] Server  LOG      ✓ Compiled in 205ms
+[00:11:37.221] Server  LOG      ✓ Compiled in 134ms
+[00:11:41.273] Server  LOG      ✓ Compiled in 143ms
+[00:11:54.213] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.56.1:3000/track-order color: rgb(120, 120, 120) color: inherit {"dp":"/track-order","o":"http://192.168.56.1:3000/track-order","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765732855160}
