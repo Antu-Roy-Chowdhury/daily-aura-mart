@@ -21,12 +21,12 @@ export default function ContactSection() {
               <div>
                 <h3 className="font-bold text-gray-900 mb-1">WhatsApp</h3>
                 <a
-                  href="https://wa.me/+8801518907652"
+                  href="https://wa.me/+8801568381366"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#04b706] hover:underline"
                 >
-                  +880 1518907652
+                  +880 1568381366
                 </a>
                 <p className="text-sm text-gray-600">Available 24/7 for orders</p>
               </div>
@@ -38,7 +38,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="font-bold text-gray-900 mb-1">Phone</h3>
-                <p className="text-gray-700">+880 1518907652</p>
+                <p className="text-gray-700">+880 1568381366</p>
                 <p className="text-sm text-gray-600">9 AM - 9 PM (Daily)</p>
               </div>
             </div>
@@ -49,8 +49,8 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="font-bold text-gray-900 mb-1">Email</h3>
-                <a href="mailto:info@dailyauramart.com" className="text-blue-600 hover:underline">
-                  info@dailyauramart.com
+                <a href="mailto:dailyauramart@gmail.com" className="text-blue-600 hover:underline">
+                  dailyauramart@gmail.com
                 </a>
                 <p className="text-sm text-gray-600">We'll respond within 24 hours</p>
               </div>
@@ -75,25 +75,36 @@ export default function ContactSection() {
 
             <div className="flex gap-4 mb-8">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=100067591227201"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white text-blue-600 p-4 rounded-xl hover:shadow-lg transition-shadow"
                 aria-label="Facebook"
               >
                 <Facebook className="w-8 h-8" />
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="bg-white text-pink-600 p-4 rounded-xl hover:shadow-lg transition-shadow"
                 aria-label="Instagram"
               >
                 <Instagram className="w-8 h-8" />
-              </a>
+              </a> */}
               <a
-                href="#"
-                className="bg-white text-red-600 p-4 rounded-xl hover:shadow-lg transition-shadow"
-                aria-label="YouTube"
+                href="https://m.me/100067591227201" // <-- Put your Page ID or Username here
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-[#0084FF] p-4 rounded-xl hover:shadow-lg transition-shadow" // <-- Changed color to Messenger Blue
+                aria-label="Messenger"
               >
-                <Youtube className="w-8 h-8" />
+                {/* Direct SVG for Messenger Logo */}
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-8 h-8"
+                >
+                  <path d="M12 2C6.48 2 2 6.03 2 11C2 13.66 3.39 16.03 5.6 17.58C5.96 17.84 6.08 18.29 5.96 18.72L5.27 21.08C5.07 21.75 5.8 22.34 6.39 21.93L9.29 19.95C9.58 19.75 9.94 19.68 10.28 19.75C10.84 19.82 11.41 19.86 12 19.86C17.52 19.86 22 15.83 22 10.86C22 5.89 17.52 2 12 2ZM13.3 13.9L11.2 11.7L7.1 13.9L11.6 9.1L13.7 11.3L17.8 9.1L13.3 13.9Z" />
+                </svg>
               </a>
             </div>
 
@@ -103,7 +114,7 @@ export default function ContactSection() {
                 For fastest response, message us directly on WhatsApp with your product inquiry.
               </p>
               <a
-                href="https://wa.me/+8801518907652"
+                href="https://wa.me/+8801568381366"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-[#04b706] text-white py-3 rounded-xl font-semibold hover:bg-[#039605] transition-colors flex items-center justify-center gap-2"

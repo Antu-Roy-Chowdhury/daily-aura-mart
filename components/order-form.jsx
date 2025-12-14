@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { useSearchParams, useRouter } from "next/navigation"
-import { Package, MapPin, Phone, User, CreditCard, ArrowLeft } from "lucide-react"
+import { Package, MapPin, Phone, Mail, User, CreditCard, ArrowLeft } from "lucide-react"
 
 export default function OrderForm() {
   const searchParams = useSearchParams()
@@ -12,6 +12,8 @@ export default function OrderForm() {
   const [formData, setFormData] = useState({
     fullName: "",
     mobileNumber: "",
+    email: "",
+    paymentMethod: "",
     district: "",
     fullAddress: "",
     trxId: "",
@@ -63,7 +65,7 @@ Address: ${formData.fullAddress}, ${formData.district}
 
 TrxID: ${formData.trxId}`
 
-    const whatsappUrl = `https://wa.me/8801234567890?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/+8801568381366?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
 
@@ -143,6 +145,21 @@ TrxID: ${formData.trxId}`
             required
           />
         </div>
+        {/* Mail Not Required*/}
+        <div>
+          <label className="block text-sm font-semibold text-gray-700 mb-2 flex items-center gap-2">
+            <Mail className="w-4 h-4" />
+            Email
+          </label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#ff7b23]"
+            placeholder="Enter your email"
+          />
+        </div>
 
         <div>
           <label className="block text-sm font-semibold text-gray-700 mb-2 flex items-center gap-2">
@@ -177,13 +194,54 @@ TrxID: ${formData.trxId}`
         </div>
 
         {/* Payment Instructions */}
+
+        <div className="mb-6">
+          <label className="block font-bold text-gray-700 mb-2">Select Payment Method</label>
+          <div className="flex gap-4">
+            
+            {/* Option A: Online Payment */}
+            <label className={`flex-1 border-2 rounded-xl p-4 cursor-pointer flex items-center gap-3 transition-all ${
+              formData.paymentMethod === 'online' 
+                ? 'border-[#04b706] bg-green-50' 
+                : 'border-gray-200 hover:border-gray-300'
+            }`}>
+              <input
+                type="radio"
+                name="paymentMethod"
+                value="online"
+                checked={formData.paymentMethod === 'online'}
+                onChange={handleChange}
+                className="w-5 h-5 accent-[#04b706]"
+              />
+              <span className="font-medium text-gray-700">Bkash / Nagad (Advance)</span>
+            </label>
+
+            {/* Option B: Cash on Delivery */}
+            <label className={`flex-1 border-2 rounded-xl p-4 cursor-pointer flex items-center gap-3 transition-all ${
+              formData.paymentMethod === 'cod' 
+                ? 'border-[#ff7b23] bg-orange-50' 
+                : 'border-gray-200 hover:border-gray-300'
+            }`}>
+              <input
+                type="radio"
+                name="paymentMethod"
+                value="cod"
+                checked={formData.paymentMethod === 'cod'}
+                onChange={handleChange}
+                className="w-5 h-5 accent-[#ff7b23]"
+              />
+              <span className="font-medium text-gray-700">Cash on Delivery</span>
+            </label>
+          </div>
+        </div>
+
         <div className="bg-green-50 border-2 border-[#04b706] rounded-xl p-4">
           <h4 className="font-bold text-[#04b706] mb-2 flex items-center gap-2">
             <CreditCard className="w-5 h-5" />
             Payment Instructions
           </h4>
           <p className="text-sm text-gray-700 mb-3">
-            Please pay <strong>130৳ Delivery Charge</strong> via Bkash / Nagad / Rocket to confirm your order.
+            Please pay on <strong>+880 1568-381366</strong> via Bkash / Nagad to confirm your order. <br />On <strong>Cash on Delivery</strong> Just Put Your Full Name in the Transaction Id.
           </p>
           <input
             type="text"

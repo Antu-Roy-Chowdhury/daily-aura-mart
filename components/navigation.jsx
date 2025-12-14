@@ -49,7 +49,7 @@ export default function Navigation() {
           {/* WhatsApp Button & Mobile Menu Toggle */}
           <div className="flex items-center gap-4">
             <a
-              href="https://wa.me/+8801518907652"
+              href="https://wa.me/+8801568381366"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-[#04b706] text-white px-4 py-2 rounded-full hover:bg-[#039605] transition-colors"
